@@ -291,7 +291,7 @@ header {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     p {
-        top: 0;
+       //top: 0;
         padding: 0.5em 12px;
         font-size: var(--alert-text);
         color: var(--white);
