@@ -98,7 +98,7 @@ a{
         --main-bottom:89px;
     }
   }
-
+  //
   //
 html {
     font-size: 62.5%;
@@ -161,8 +161,8 @@ nav {
         transform: translate(40%, -40%);
         background-color: var(--red);
         border-radius: 50%;
-        height: 80px;
-        aspect-ratio: 1 / 1;
+        aspect-ratio: 1;
+        padding: 0.5em 0.72em;
         font-size: var(--cart-num);
         text-align: center;
     }
@@ -291,7 +291,6 @@ header {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     p {
-       //top: 0;
         padding: 0.5em 12px;
         font-size: var(--alert-text);
         color: var(--white);
